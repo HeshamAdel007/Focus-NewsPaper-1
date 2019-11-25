@@ -1,0 +1,27 @@
+/*
+@package foucs_newspaper
+*/
+
+//- File Variables 
+@import "help/variables";
+//- File Mixin
+@import "help/mixins";
+
+.con-info {
+    ul {
+        li {
+           margin: 2em auto;
+           h3 {
+                display: inline-block; 
+                margin: auto 10px;
+                a {
+                    text-decoration: none;
+                    color: $primary_color;
+                    &:hover {
+                        color: $secondary_color;
+                    }
+                }
+           }
+        }
+    }
+}

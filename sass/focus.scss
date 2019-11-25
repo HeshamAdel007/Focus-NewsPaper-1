@@ -1,0 +1,178 @@
+/*
+    *** Theme Name  :  Foucs NewsPaper Theme
+    *** Theme URL   :  https://www.fb.com/Hesham.H.Adel
+    *** Author	    :  Hesham Adel
+    *** Author URL	:  https://www.fb.com/Hesham.H.Adel
+    *** Description	:  Foucs NewsPaper The Perfect Theme For Your Magazine. Beautiful and Awesome in evry resolution.  user-friendly and SEO-friendly theme, There is a ton of ad space, you can use the header widgets to place ads banners and adsense in case you need to earn money as an affiliate - No matter if it is image ads advertisment or video advertising, all ad networks work such as Google DFP Ads, adsense and more. Our theme is made for the search engines, so you can easily beat the other bloggers and newspapers in Google with our fast and SEO optimized theme.The theme uses simple, clean flat design, With Multiple Custom Options in The Administration Panel To Make This Theme Your Definitive ally for your Daily Post.
+    *** Version		:  1.0.0
+    *** Tags		: foucs, newspaper, magazine, custom owner options,home pages, sidebar, blog, responsive, icon font, google font, clean, sass, fontawesome, normalize, owl.carousel, bootstrap.
+    *** Text Domain : foucs_newspaper
+*/
+
+/*
+	@package foucs_newspaper
+*/
+
+//- File Variables 
+@import "help/variables";
+//- File Mixin
+@import "help/mixins";
+//- Globale File
+@import "layout/globale";
+//- Componed File
+@import "componed/button-share";
+
+/*** START FOUCS NEWSPAPER STYLE ***/
+
+//- Header
+@import "layout/header";
+//- Slider
+@import "layout/slider";
+//- 404
+@import "page/not-found";
+
+
+/*** START NAVIGATIONS ***/
+
+@import "layout/navs/navigat";
+
+/*** END NAVIGATIONS ***/
+
+
+/*** START ARTICAL POST ***/
+
+
+@import "page/home/latest-news";
+@import "page/home/old-post";
+@import "page/home/top-post";
+@import "page/home/category-index";
+@import "page/home/slider-categories";
+@import "page/home/latest-articale";
+
+
+/*** END ARTICAL POST ***/
+
+
+
+/*** START SEARCH PAGE ***/
+
+
+@import "page/search/form";
+@import "page/search/page";
+
+
+/*** END SEARCH PAGE ***/
+
+
+/*** START ARTICAL POST  TAB ***/
+
+
+@import "page/cat-tab/category-tab";
+@import "page/cat-tab/world-tab";
+@import "page/cat-tab/tech-tab";
+@import "page/cat-tab/gallery-tab";
+@import "page/cat-tab/popular-tab";
+
+
+/*** END ARTICAL POST TAB ***/
+
+
+/*** START SINGLE POST  ***/
+
+
+@import "page/single/breadcrumb";
+@import "page/single/posts";
+@import "page/single/share-box";
+@import "page/single/paginat";
+@import "page/single/slider";
+@import "layout/comment-form";
+
+/*** END SINGLE POST ***/
+
+
+/*** START CATEGORIES PAGE  ***/
+
+@import "page/categories/slider";
+@import "page/categories/post";
+@import "page/categories/paginat";
+
+
+/*** END CATEGORIES PAGE ***/
+
+
+/*** START AUTHOR PAGE  ***/
+@import "page/author/info";
+@import "page/author/slider";
+@import "page/author/post";
+@import "page/author/comment";
+
+
+
+/*** END CATEGORIES PAGE ***/
+
+
+
+/*** Start Sidebar Widget ***/
+
+
+@import "layout/widgets/body-widget";
+@import "layout/widgets/social_link";
+@import "layout/widgets/archive";
+@import "layout/widgets/categories";
+@import "layout/widgets/popular-post";
+@import "layout/widgets/gallery";
+@import "layout/widgets/img-widget";
+@import "layout/widgets/page-widget";
+@import "layout/widgets/nav-widget";
+@import "layout/widgets/rescent-post";
+@import "layout/widgets/text-widget";
+@import "layout/widgets/video-widget";
+@import "layout/widgets/tag-widget";
+@import "layout/widgets/foucs-top-post";
+@import "layout/widgets/foucs-facebook-widget";
+@import "layout/widgets/foucs-youtube-widget";
+@import "layout/widgets/foucs-calender";
+
+
+/*** End Sidebar Widget ***/
+
+
+
+/*** Start FOOTER ***/
+
+
+@import "layout/footer/footer";
+@import "layout/footer/popular-post";
+@import "layout/footer/category";
+@import "layout/footer/tags";
+@import "layout/footer/logo";
+@import "layout/footer/about-us";
+@import "layout/footer/social-link";
+@import "layout/footer/end-foter";
+
+
+/*** END FOOTER ***/
+
+
+
+
+/*** END CONTACT PAGE ***/
+
+@import "page/contact/form";
+
+/*** END CONTACT PAGE ***/
+
+
+/*** END SHORTCODE ***/
+
+//@import "layout/shortcode/mail-box";
+//@import "layout/shortcode/adress-box";
+//@import "layout/shortcode/phone-box";
+
+/*** END SHORTCODE  ***/
+
+
+
+
+
+/*** END FOUCS NEWSPAPER STYLE ***/

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;EAEE;AASM,eAAG;EACA,MAAM,EAAE,QAAQ;;AAChB,kBAAG;EACE,OAAO,EAAE,YAAY;EACrB,MAAM,EAAE,SAAS;;AACjB,oBAAE;EACE,eAAe,EAAE,IAAI;EACrB,KAAK,ECjBH,OAAO;;ADkBT,0BAAQ;EACJ,KAAK,EClBP,OAAO",
+"sources": ["../../sass/admin/foucs.admin.scss","../../sass/help/_variables.scss"],
+"names": [],
+"file": "foucs.admin.css"
+}
